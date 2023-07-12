@@ -1,7 +1,7 @@
 import java.security.AlgorithmConstraints;
 
 public class DataType{
- public static void main(String1[] agrs) {
+ public static void main(String[] agrs) {
 
   int n = 10;
   System.out.println("3");
@@ -38,20 +38,20 @@ int a10 = 100;
 System.out.println(a10);
 // string + operation
 
-String1 str1 = "hello";
-String1 str2 = "World";
-String1 result = str1 + str2;
+String str1 = "hello";
+String str2 = "World";
+String result = str1 + str2;
 System.out.println(result);
 
-String1 result2 = "something" + "somethings";
+String result2 = "something" + "somethings";
 System.out.println(result2);
 
 System.out.println(result + " " + result2);
 
-String1 str3 = "abc" + 13;// default behaviour : convert
-String1 str4 ="abc" + 'A';
-String1 str5 = "abcd" + true;
-String1 str6 = "A";
+String str3 = "abc" + 13;// default behaviour : convert
+String str4 ="abc" + 'A';
+String str5 = "abcd" + true;
+String str6 = "A";
 System.out.println(str6);
 
 
@@ -62,22 +62,10 @@ int c10 = 2 - 88; //-78
 int i = 2 * 101;// 202
 int p = 10 / 3; // 3
 int o = 10 % 3; // 1, 1 is reminder
-System.out.println(o);
-
-String1 s1 = "Hello";
-String1 s3 = "Hello";
+System.out.println(o)
+String s1 = "Hello";
+String s3 = "Hello";
 System.out.println(s1 == s3);
-
-
-
-
-
-
-
-
-
-
-
 
 
 
