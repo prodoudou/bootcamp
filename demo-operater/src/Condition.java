@@ -84,30 +84,84 @@ public class Condition {
     switch (dayofweek){ // check if value equals to the following case
       case 1:
         dayname = "Monday";
-        break; // exit
+        System.out.println(1);
+        
         case 2:
         dayname = "Tuesday";
-        break; // exit
+        System.out.println(2);
+        
         case 3:
         dayname = "wednesday";
-        break; // exit
+        System.out.println(3);
+       
         case 4:
         dayname = "Thurday";
-        break; // exit
+        System.out.println(4);
+        
         case 5:
         dayname = "friday";
-        break; // exit
+        System.out.println(5);
+        
         case 6:
         dayname = "saturday";
-        break; // exit
+        System.out.println(6);
+        
         case 7:
         dayname = "sunday";
-        break; // exit
+        System.out.println(7);
+        
       }
 System.out.println("dayname=" +dayname);
 
-     
+      
+     String fruit = "orange";
+     switch (fruit) {
+     case "orange":
+     System.out.println("what ");
+
+     case "apple":
+     System.out.println("what is th");
+     break;
+     case "banana":
+     System.out.println("wh: +fruit");
+     }
+
+     char grade2 = 'D';
+     int pocketMoney = 100;
+     switch (grade2){
+
+      case 'A':
+      pocketMoney += 100;
+      break;
+      case 'B':
+      pocketMoney += 70; 
+      break;
+      case 'C':
+      pocketMoney += 20;
+      break;
+      default:
+      pocketMoney += 5;
+     }
+     System.out.println("pocket money=" + pocketMoney);
+
+      int birthday = 911;
+      switch (birthday){
+        case 911:
+        break;
+        case 811:
+        break;
+        case 711:
+        break;
+        default:
+      }
+     System.out.println("birthday is " + birthday);
+
+      
+
+     }
+
+
     }
     
-  }
+  
   

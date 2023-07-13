@@ -10,17 +10,18 @@
 public class JavaQuest2 {
   public static void main(String[] args) {
     int a = 10;
-    int b = 3 * a % 3;//
+    int b = 3 * a % 3;// 
     if (a == 9) {
       System.out.println("a is equals to 9");
     } else if (a < 9 && a >= 0) {
       System.out.println("a is between 0 and 8");
       // code here
     }else if (a > 9){
-      System.out.println(a > 9);
+      System.out.println("a > 9");
     }else {
       System.out.println("a < 0");
     }
+    
 
     String str = "I love Java. I love coding";
     if ((str.length() == 27)) { //no need to add!// code here. Fix the bug.
@@ -43,7 +44,7 @@ public class JavaQuest2 {
     int year1 = 2009;
     // Program a condition to check if it is a leap year.
     // But should NOT print anything.
-    if (year1 % 4 == 0 && year1 % 100 !=0 || year1 % 400 ==0) {
+    if (year1 / 4 == 0 && year1 / 100 !=0 || year1 / 400 ==0) {
       System.out.println("2009 is a leap year.");
     }
     int year2 = 2020;
