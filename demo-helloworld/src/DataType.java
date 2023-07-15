@@ -62,7 +62,7 @@ int c10 = 2 - 88; //-78
 int i = 2 * 101;// 202
 int p = 10 / 3; // 3
 int o = 10 % 3; // 1, 1 is reminder
-System.out.println(o)
+System.out.println(o);
 String s1 = "Hello";
 String s3 = "Hello";
 System.out.println(s1 == s3);
