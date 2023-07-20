@@ -8,16 +8,17 @@ public class swap {
     //abcdef -> bac
      char [] arr = str.toCharArray(); //abcd > babc abc ->bac
     for (int i = 0; i < arr.length;i++ ){
-      char set=' ';
-       if (i % 2 == 1){ // 0,2,4,6
-        set = arr [i];
+      char temp=' ';
+       if (i % 2 == 1){ 
+        temp = arr [i];
         arr[i] = arr [i - 1];
-        arr [i - 1] = set;
+        arr [i - 1] = temp;
 
        }
     }
-    String test2 = new String(arr); //b,a,d,c - > "badc"
-    return test2;
+    String str1 = String.valueOf(123);// 123
+    String str2 = String.valueOf(123);// 123
+    return String.valueOf(arr);// very common name of method
   }
   public static void main(String []args) {
     int [] arr = new int[]{100, -400, 3, 99};
@@ -31,7 +32,10 @@ public class swap {
     System.out.println("arr[" + i + "]=" + arr[i]);
      //code here
     }
-   
+   System.out.println(SwapOddEventCharacter("hello!"));
+   System.out.println(SwapOddEventCharacter("abcd"));
+   System.out.println(SwapOddEventCharacter("aabb"));
+
         
   //Swap
   }
