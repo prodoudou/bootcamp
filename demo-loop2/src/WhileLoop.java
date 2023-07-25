@@ -49,5 +49,7 @@ while (k < 6){
   System.out.println("continue hello"+j);
 
     }
+
+    System.out.println("test");
   }
 }

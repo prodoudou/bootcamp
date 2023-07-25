@@ -21,18 +21,19 @@ public class BubbleSort {
     int [] nums = new int[] { 5, 1, 4, 8, 2};
     
    
-      System.out.println(Arrays.toString(nums));
+      System.out.println(Arrays.toString(sort(nums)));
+      
   }
 
 
-  public static int[] sort(int[]arr){
+  public static int[] sort(int []arr){
   int temp = 0;
-  for (int i = 0; i < arr.length; ++i){ // i < 2 = every step pattern is swap first number and second number
-      for (int y = 0;y < arr.length- 1; y++){// -1 = times of comparison
-        if(arr[y] < arr[y+1]){//y < y+1 = first number compare with second number
-         temp = arr[y+1];
-          arr[y+1] = arr[y];
-          arr[y] = temp;
+      for (int i = 0; i < arr.length-1;++i){ // i < 2 = every step pattern is swap first number and second number
+      for (int y = 0;y < arr.length- 1-i; y++){// -1 = times of comparison
+        if(arr[y] > arr[y+1]){//y < y+1 = first number compare with second number
+         temp = arr[y];
+          arr[y] = arr[y+1];
+          arr[y+1] = temp;
         }
         }
       }

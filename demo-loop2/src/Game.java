@@ -17,8 +17,11 @@ public class Game {
     int bomb = new Random().nextInt(100) +1;// 1- 100
     int input=0;
     Scanner scanner = new Scanner(System.in);
+    
+    
+    
+    
     do{
-
       System.out.println("please enter the number betwwen " + min + " - " +max);
       input = scanner.nextInt();// your answer 50// bomb is 90
        //debug syntax //min < input < bomb
@@ -27,10 +30,11 @@ public class Game {
       } else if(input > bomb && input < max){// input < bomb
        max = input;
       }
-
-      
-
     }while(input != bomb);// if input bomb not match the bomb, if loop again
     System.out.println("bomb!!!!");
+
+    
+
+
   }
 }

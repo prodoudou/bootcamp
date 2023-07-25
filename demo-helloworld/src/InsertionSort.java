@@ -14,7 +14,7 @@ public class InsertionSort {
 			temp = array[i];
 			int j = i - 1;
 			
-			while(j >= 0 && array[j] > temp) {
+			while(j >= 0 && array[j] > temp) {//run the condition until complete it
 				array[j + 1] = array[j];
 				j--;
 			}
@@ -22,13 +22,13 @@ public class InsertionSort {
 		}
      System.out.println(Arrays.toString(array));
 
-     /*for (int s: array){
+     for (int s: array){
       System.out.println(s);
      }
 
      for(int i=0;i<array.length;i++){
       System.out.print(array[i]+"  ");
-     } */
+     } 
 
 }
 }

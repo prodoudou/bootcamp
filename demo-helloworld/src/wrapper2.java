@@ -18,8 +18,8 @@ public class wrapper2 {
     long l4 = 100;// int -> long (upcase)
     Long l = 10L;// long - > Long (auto-box)
     ///Long l10 = 10; // int ->Long (error)
-    long 12 = l;
-    Long 13 = 12;
+    long l2 = l;
+    Long l3 = 12l;
 
 
   }
