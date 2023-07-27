@@ -46,5 +46,8 @@ public class Computer {
     
     c2.setColor("WHITE");
     System.out.println("after : " + c2.getColor());
+
+    c2.color="";
+    System.out.println(" Last : " +c2.getColor());
   }
 }

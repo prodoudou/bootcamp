@@ -46,16 +46,6 @@ public class JavaQuest12 {
     return arr;
   }
 */
-
-
-
-
-
-
-
-
-
-
   public static int[] Sum(int[] num,int target){
     int[] ans = new int[]{-1,-1}; 
     for (int i=0;i<num.length;i++){       // i  0 0 0   1 1    2

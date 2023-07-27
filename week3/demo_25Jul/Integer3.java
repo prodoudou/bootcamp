@@ -1,4 +1,4 @@
-package patrick.bootcamp.demo_datatype3;
+package patrick.bootcamp.week3.demo_25Jul;
 // internal Cache (-128 to 127) same as byte range 先會地址一樣
 public class Integer3 {
   public static void main(String[]args){

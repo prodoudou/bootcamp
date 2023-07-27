@@ -1,4 +1,5 @@
-package patrick.bootcamp.demo_datatype3;
+package patrick.bootcamp.week3.demo_25Jul;
+
 
 public class String3 {
   //String Literal pool (Heap) + String is immutable
