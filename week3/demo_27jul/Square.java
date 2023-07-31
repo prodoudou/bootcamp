@@ -3,8 +3,9 @@ package week3.demo_27jul;
 import java.util.Arrays;
 
 public class Square {
-
+  //private static int edgecounter;
   private final Edge[] edges;// instance varible// what is final array???? final 緊D咩？
+//唔能夠派去第2個address// this is final the arr[]既address
 
   // public Square(){//empty constructor
   // this.edges = new Edge [4];//[null, null, null, null]
@@ -14,17 +15,54 @@ public class Square {
   // this.edges[3] = new Edge(3, "BLUE");
   // }
 
-  public Square(double length) {
+  public Square(double length) {//this designe????????用家唔應該擔心lengh array？？？
     if (length <= 0.0)
       length = 1.0d;
-    this.edges = new Edge[4];
-    this.edges[0] = new Edge(length, "RED");
-    this.edges[1] = new Edge(length, "RED");
-    this.edges[2] = new Edge(length, "RED");
-    this.edges[3] = new Edge(length, "RED");
+      int id = 0;
+    this.edges = new Edge[4];//[null nulll nnull] //第一個汳
+    this.edges[0] = new Edge(++id,length, "RED");//第二個汳
+    this.edges[1] = new Edge(++id, length, "RED");//第三個汳
+    this.edges[2] = new Edge(++id, length, "RED");//第四個汳
+    this.edges[3] = new Edge(++id, length, "RED");//第五個汳
+    //Square.resetId();
   }
 
-  public Edge[] getEdges() {
+
+ 
+  
+// public static void resetId(){
+// edgeCounter = 0;
+// }
+
+
+
+  public Edge getEdge( int edgeId){
+    return this.edges[edgeId - 1];//num[i]
+  }
+
+
+
+
+
+  public void modify(double length){
+    this.getEdges()[0].setLength(length);
+    this.getEdges()[1].setLength(length);
+    this.getEdges()[2].setLength(length);
+    this.getEdges()[3].setLength(length);
+  }
+
+   public void modify(String color){
+    this.getEdges()[0].setColor(color);
+    this.getEdges()[1].setColor(color);
+    this.getEdges()[2].setColor(color);
+    this.getEdges()[3].setColor(color);
+   }
+
+   public void modify(int edgeId, String color){
+    this.getEdges()[edgeId].setColor(color);
+   }
+
+   public Edge[] getEdges() {//
     return this.edges;
   }
 
@@ -32,16 +70,4 @@ public class Square {
   // return this;
   // }
 
-  public static void main(String[] args) {
-    Square s1 = new Square(10);
-    Square s2 = new Square(4);
-    Square s3 = new Square(5);
-
-    // s1-> edge[0] color -> yellow
-    s1.getEdges()[0].setColor("YELLOW");// set arr[0] 既yellow// 點解唔可以直接打s1.setColor("YEllOW"),
-    // s1.getEdges()<---做完呢會變左TYPE,變左做Edges[] , 所以能夠s1.getEdges()[0]搵data，seems like
-    // arr[0] // 因為 color係edge入面 要入左去先
-
-    System.out.println(s1.getEdges()[0].getColor());
-  }
 }

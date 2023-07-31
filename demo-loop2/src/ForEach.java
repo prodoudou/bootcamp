@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ForEach {
     public static void main(String[] args) {
        // basic
-  /*      for (int i = 0; i < 3; i++){
+      for (int i = 0; i < 3; i++){
         System.out.println("basic for -loop :Hello");
        }
        //for-each
@@ -45,13 +45,13 @@ public class ForEach {
         for (Character c: chars){ // c = 之前既 for loop 既 i
             System.out.println(c);
         }
-*/
+
         String s2 = "Hello world ! I am vincent";
         System.out.println(Arrays.toString(split(s2)));//call method , run to method
-     //   String[] strings = s2.split(" ");
-    //    for (String s: strings){
-      //      System.out.println(s);
-      //      }
+        String[] strings = s2.split(" ");
+        for (String s: strings){
+            System.out.println(s);
+          }
 
             //without using split, use a for loop spslit s2
             //outout: String[]
@@ -61,7 +61,7 @@ public class ForEach {
              //Approach 1 is substring()
              // Count spaces
              
-            /*
+            
             String save = "";
             int count = 0;
             char[] arr1 = s2.toCharArray();
@@ -75,7 +75,7 @@ public class ForEach {
             int index = 0;
             String [] strr = new String [count+1];
             //^^^^^set a string array and number of string array is 幾多個字^^^^^
-            for (int y = 0;y < s2.length();y++) {
+            for (int i = 0;i < s2.length();i++) {
                 if(arr1[i] != ' '){
                 save += arr1[i];     
                 } else {
@@ -86,7 +86,7 @@ public class ForEach {
             }
            System.out.println(Arrays.toString(strr));
         
-            */
+       
         
         
             ///for (String x: b)}

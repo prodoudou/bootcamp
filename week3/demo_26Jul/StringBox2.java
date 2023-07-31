@@ -56,6 +56,7 @@ public static void main(String[] args) {
   System.out.println(box.toString());//[a, c, b]?????????????refer 20
 
 System.out.println(box.append("def").toString());
+System.out.println(box.toString());
 
 
 
