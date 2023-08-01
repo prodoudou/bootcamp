@@ -48,6 +48,9 @@ public class Number2 {
     System.out.println(n1.divide(3, 6));
     Number2.divide(3, 6);// 6 /3=2, n1-> 13, 26
 
+   
+    
+
     n1.print();
     n2.print();
   }

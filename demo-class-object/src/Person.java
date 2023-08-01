@@ -1,6 +1,7 @@
+
 public class Person{ // // template
     //describe the person by attribute
-private int age;
+ int age;
 private char gender;//---> enum
 
 
@@ -49,22 +50,27 @@ public static void main(String[] args) {// p is like a ball, p2 is ball
     p.setAge(13);
     p.getAge();
 
+    
+
     //static vs non-static
     //static 本身公家的地方 有既野(parameter) 再run 
     System.out.println(Person.isMale('F'));//-> false
     //non-static 
     p.setGender('M');
     p.isMale();//true
+    
 
     Computer computer = new Computer();//public class 任何地方都可以NEW COMPUTER 只要PUBLIC// computer () = empty constructor
     computer.setColor("RED");
     computer.setRam(128);
     computer.setWeight(2);
 
+
     Computer computer2 = new Computer("Yellow");//king of setter
     computer2.getColor();//->yellow
     computer2.setColor("black");
     computer2.getColor();
+    
     
 
 }

@@ -42,6 +42,7 @@ public class Computer {
   public static void main(String[] args) {
     Computer c1 = new Computer();
     Computer c2 = new Computer(4, 5, "BLACK");
+
     System.out.println("before : " + c2.getColor());
     
     c2.setColor("WHITE");
@@ -49,5 +50,8 @@ public class Computer {
 
     c2.color="";
     System.out.println(" Last : " +c2.getColor());
+
+   //Person.setAge(12);
+   
   }
 }
