@@ -1,4 +1,4 @@
-package patrick.bootcamp.week3.demo_25Jul;
+package week3.demo_25Jul;
 
 
 public class String3 {

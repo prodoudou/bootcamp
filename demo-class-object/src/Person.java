@@ -1,8 +1,9 @@
 
 public class Person{ // // template
     //describe the person by attribute
- int age;
+ private int age;
 private char gender;//---> enum
+
 
 
 public static boolean isMale(char gender){/// belongs to class = class = 公家的地方
@@ -49,8 +50,9 @@ public static void main(String[] args) {// p is like a ball, p2 is ball
     Person p2 = new Person(); // produce empty person object, with default value
     p.setAge(13);
     p.getAge();
-
-    
+    Computer computer3 = new Computer();
+    p.age =12;
+    System.out.println("test= "+p.age);
 
     //static vs non-static
     //static 本身公家的地方 有既野(parameter) 再run 
@@ -58,7 +60,7 @@ public static void main(String[] args) {// p is like a ball, p2 is ball
     //non-static 
     p.setGender('M');
     p.isMale();//true
-    
+
 
     Computer computer = new Computer();//public class 任何地方都可以NEW COMPUTER 只要PUBLIC// computer () = empty constructor
     computer.setColor("RED");
@@ -70,6 +72,8 @@ public static void main(String[] args) {// p is like a ball, p2 is ball
     computer2.getColor();//->yellow
     computer2.setColor("black");
     computer2.getColor();
+
+    
     
     
 

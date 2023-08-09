@@ -1,4 +1,4 @@
-package patrick.bootcamp.week3.demo_26Jul;
+package week3.demo_26Jul;
 
 import java.util.Arrays;
 
