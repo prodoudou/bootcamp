@@ -10,7 +10,7 @@ public class DemoHashMap2 {
   //  //Key = Address of Byte to value of Byte?
    books.put(128,new Book("Eric","hi"));
   books.put(128,new Book("Steve","hi2"));
-  System.out.println(books.size()); //1
+  System.out.println("test"+books.size()); //1
 
   HashMap<Author, Book> bookMap = new HashMap<>();
 // Author unqiue key? -> equals()m hasCode();
