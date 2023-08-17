@@ -1,0 +1,896 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Staff",
+      "request": "launch",
+      "mainClass": "week6.week6wed.Stream.Staff",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Array3",
+      "request": "launch",
+      "mainClass": "Array3",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Birth",
+      "request": "launch",
+      "mainClass": "Birth",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Circle2",
+      "request": "launch",
+      "mainClass": "Circle2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Computer",
+      "request": "launch",
+      "mainClass": "Computer",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Condition",
+      "request": "launch",
+      "mainClass": "Condition",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DataType",
+      "request": "launch",
+      "mainClass": "DataType",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DoubleProblem",
+      "request": "launch",
+      "mainClass": "DoubleProblem",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DowhileLoop",
+      "request": "launch",
+      "mainClass": "DowhileLoop",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "ForEach",
+      "request": "launch",
+      "mainClass": "ForEach",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Game",
+      "request": "launch",
+      "mainClass": "Game",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "InsertionSort",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Logicaloperatora",
+      "request": "launch",
+      "mainClass": "Logicaloperatora",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Loop",
+      "request": "launch",
+      "mainClass": "Loop",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Loop2",
+      "request": "launch",
+      "mainClass": "Loop2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Number2",
+      "request": "launch",
+      "mainClass": "Number2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Person",
+      "request": "launch",
+      "mainClass": "Person",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Primitives",
+      "request": "launch",
+      "mainClass": "Primitives",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Random1",
+      "request": "launch",
+      "mainClass": "Random1",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "ReadInput",
+      "request": "launch",
+      "mainClass": "ReadInput",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "RerseString",
+      "request": "launch",
+      "mainClass": "RerseString",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Retangle",
+      "request": "launch",
+      "mainClass": "Retangle",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Revision",
+      "request": "launch",
+      "mainClass": "Revision",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Searcharray",
+      "request": "launch",
+      "mainClass": "Searcharray",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "String1",
+      "request": "launch",
+      "mainClass": "String1",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "String2",
+      "request": "launch",
+      "mainClass": "String2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "String3",
+      "request": "launch",
+      "mainClass": "String3",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Swap1",
+      "request": "launch",
+      "mainClass": "Swap1",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "WhileLoop",
+      "request": "launch",
+      "mainClass": "WhileLoop",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "array",
+      "request": "launch",
+      "mainClass": "array",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "array2",
+      "request": "launch",
+      "mainClass": "array2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "circle",
+      "request": "launch",
+      "mainClass": "circle",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "d2ray",
+      "request": "launch",
+      "mainClass": "d2ray",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "hellotesting",
+      "request": "launch",
+      "mainClass": "hellotesting",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "invoice",
+      "request": "launch",
+      "mainClass": "invoice",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "App(1)",
+      "request": "launch",
+      "mainClass": "lambda.App",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Person(1)",
+      "request": "launch",
+      "mainClass": "lambda.Person",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Swimable",
+      "request": "launch",
+      "mainClass": "lambda.Swimable",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "leetcode",
+      "request": "launch",
+      "mainClass": "leetcode",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "leetcode123",
+      "request": "launch",
+      "mainClass": "leetcode123",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "method2",
+      "request": "launch",
+      "mainClass": "method2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "methods",
+      "request": "launch",
+      "mainClass": "methods",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "StockX",
+      "request": "launch",
+      "mainClass": "mystuff.StockX",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "User",
+      "request": "launch",
+      "mainClass": "mystuff.User",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Demo(1)",
+      "request": "launch",
+      "mainClass": "nestedclass.Demo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Phone",
+      "request": "launch",
+      "mainClass": "nestedclass.Phone",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "nestedclass.Student",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "newdemo",
+      "request": "launch",
+      "mainClass": "newdemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "operater",
+      "request": "launch",
+      "mainClass": "operater",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "productSequcen",
+      "request": "launch",
+      "mainClass": "productSequcen",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "swap",
+      "request": "launch",
+      "mainClass": "swap",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "swap2",
+      "request": "launch",
+      "mainClass": "swap2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Integer3",
+      "request": "launch",
+      "mainClass": "week3.demo_25Jul.Integer3",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Mathmath",
+      "request": "launch",
+      "mainClass": "week3.demo_25Jul.Mathmath",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "String3(1)",
+      "request": "launch",
+      "mainClass": "week3.demo_25Jul.String3",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "stringbuilders",
+      "request": "launch",
+      "mainClass": "week3.demo_25Jul.stringbuilders",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "ItemDesc",
+      "request": "launch",
+      "mainClass": "week3.demo_26Jul.ItemDesc",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "StringBox",
+      "request": "launch",
+      "mainClass": "week3.demo_26Jul.StringBox",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "StringBox2",
+      "request": "launch",
+      "mainClass": "week3.demo_26Jul.StringBox2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Circle",
+      "request": "launch",
+      "mainClass": "week3.demo_27jul.Circle",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Edge",
+      "request": "launch",
+      "mainClass": "week3.demo_27jul.Edge",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "StringSplit",
+      "request": "launch",
+      "mainClass": "week4.week4fri.StringSplit",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Student(1)",
+      "request": "launch",
+      "mainClass": "week4.week4mon.abstract1.Student",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "X",
+      "request": "launch",
+      "mainClass": "week4.week4mon.crash.X",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "C",
+      "request": "launch",
+      "mainClass": "week4.week4mon.inherfitance.C",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Laptop",
+      "request": "launch",
+      "mainClass": "week4.week4mon.inherfitance.Laptop",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Machine",
+      "request": "launch",
+      "mainClass": "week4.week4mon.inherfitance.Machine",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Ball",
+      "request": "launch",
+      "mainClass": "week4.week4thu.enums.Ball",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Currency",
+      "request": "launch",
+      "mainClass": "week4.week4thu.enums.Currency",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Direction",
+      "request": "launch",
+      "mainClass": "week4.week4thu.enums.Direction",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "OrderStatus",
+      "request": "launch",
+      "mainClass": "week4.week4thu.enums.OrderStatus",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "app",
+      "request": "launch",
+      "mainClass": "week4.week4thu.enums.app",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Shape",
+      "request": "launch",
+      "mainClass": "week4.week4tue.Shape",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Ball(1)",
+      "request": "launch",
+      "mainClass": "week4.week4tue.objects123.Ball",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "ObjectDemo",
+      "request": "launch",
+      "mainClass": "week4.week4tue.objects123.ObjectDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Point",
+      "request": "launch",
+      "mainClass": "week4.week4tue.objects123.Point",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "week4.week4wed.Dog",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "GameMember",
+      "request": "launch",
+      "mainClass": "week4.week4wed.GameMember",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "SmallDog",
+      "request": "launch",
+      "mainClass": "week4.week4wed.SmallDog",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Strings",
+      "request": "launch",
+      "mainClass": "week4.week4wed.Strings",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Student(2)",
+      "request": "launch",
+      "mainClass": "week4.week4wed.Student",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoGenerics",
+      "request": "launch",
+      "mainClass": "week5.week5fri.demogenrics.DemoGenerics",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "ShoppingCart",
+      "request": "launch",
+      "mainClass": "week5.week5fri.demogenrics.ShoppingCart.ShoppingCart",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Box",
+      "request": "launch",
+      "mainClass": "week5.week5fri.demogenrics.box.Box",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Printer",
+      "request": "launch",
+      "mainClass": "week5.week5fri.demogenrics.printer.Printer",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Dog(1)",
+      "request": "launch",
+      "mainClass": "week5.week5fri.demogenrics.zoo.Dog",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoHashSet1",
+      "request": "launch",
+      "mainClass": "week5.week5mon.hashset1.DemoHashSet1",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoHashMap",
+      "request": "launch",
+      "mainClass": "week5.week5tue.hashmap1.DemoHashMap",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoHashMap2",
+      "request": "launch",
+      "mainClass": "week5.week5tue.hashmap1.DemoHashMap2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoHashSet2",
+      "request": "launch",
+      "mainClass": "week5.week5tue.hashmap1.DemoHashSet2",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList1",
+      "request": "launch",
+      "mainClass": "week5.week5tue.linkedlist.LinkedList1",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Node",
+      "request": "launch",
+      "mainClass": "week5.week5tue.linkedlist.Node",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "NodeList",
+      "request": "launch",
+      "mainClass": "week5.week5tue.linkedlist.NodeList",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoArrayDeque",
+      "request": "launch",
+      "mainClass": "week5.week5tue.queue1.DemoArrayDeque",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoQueue",
+      "request": "launch",
+      "mainClass": "week5.week5tue.queue1.DemoQueue",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Staff",
+      "request": "launch",
+      "mainClass": "week5.week5tue.queue1.Staff",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoStack",
+      "request": "launch",
+      "mainClass": "week5.week5tue.stack1.DemoStack",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoSorting",
+      "request": "launch",
+      "mainClass": "week5.week5wed.comparator.DemoSorting",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "SortByColor",
+      "request": "launch",
+      "mainClass": "week5.week5wed.comparator.SortByColor",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoRecursion",
+      "request": "launch",
+      "mainClass": "week5.week5wed.recursion.DemoRecursion",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Card",
+      "request": "launch",
+      "mainClass": "week6.week6mon.Comparator.Card",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "AnimalMap",
+      "request": "launch",
+      "mainClass": "week6.week6mon.Map.AnimalMap",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Shape(1)",
+      "request": "launch",
+      "mainClass": "week6.week6mon.Shape.Shape",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoPQ",
+      "request": "launch",
+      "mainClass": "week6.week6mon.ds.DemoPQ",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoIAE",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.DemoIAE",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Student(3)",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.checked.Student",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoArithmeticException",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.unchecked.DemoArithmeticException",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoArrayIndexOutOfBoundsException",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.unchecked.DemoArrayIndexOutOfBoundsException",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoIAE(1)",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.unchecked.DemoIAE",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoNullPointer",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.unchecked.DemoNullPointer",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoNumberFormatException",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.unchecked.DemoNumberFormatException",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoStringIndex",
+      "request": "launch",
+      "mainClass": "week6.week6mon.exception.unchecked.DemoStringIndex",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Demo(2)",
+      "request": "launch",
+      "mainClass": "week6.week6mon.revision.Demo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "DemoArrayList",
+      "request": "launch",
+      "mainClass": "week6.week6wed.Stream.DemoArrayList",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "CombinDemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.CombinDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "ConsumerDemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.ConsumerDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "LambdaDemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.LambdaDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "MathDemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.Math.MathDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "PredicateDemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.PredicateDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "Supplierdemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.Supplierdemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "UnaryDemo",
+      "request": "launch",
+      "mainClass": "week6.week6wed.lambda2.UnaryDemo",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "wrapper",
+      "request": "launch",
+      "mainClass": "wrapper",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
+      "name": "wrapper2",
+      "request": "launch",
+      "mainClass": "wrapper2",
+      "projectName": "bootcamp_3d7f775a"
+    }
+  ]
+}
