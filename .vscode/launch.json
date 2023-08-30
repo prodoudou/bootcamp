@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DemoThread",
+      "request": "launch",
+      "mainClass": "week6.week6fri.thread.DemoThread",
+      "projectName": "bootcamp_3d7f775a"
+    },
+    {
+      "type": "java",
       "name": "Staff",
       "request": "launch",
       "mainClass": "week6.week6wed.Stream.Staff",

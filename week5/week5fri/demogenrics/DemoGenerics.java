@@ -1,7 +1,9 @@
-package week5.week5fri.demogenrics;
+package week5.week5fri.demogenrics.;
 
 import java.util.ArrayList;
+import java.util.List;
 
+import week5.week5fri.demogenrics.Person.Person;
 import week5.week5fri.demogenrics.box.Box;
 import week5.week5fri.demogenrics.zoo.Animal;
 import week5.week5fri.demogenrics.zoo.Cat;
@@ -33,6 +35,16 @@ public class DemoGenerics {
     for (double d : d1.getNumbers()) {
     System.out.println(d);// 1.0
     }
+
+    List<Person> strings3 = new ArrayList<>();
+    Database<Integer> strings4 = new Database<>();
+
+    Database.add(new Person());// static method is independent" generic"
+
+    
+
+
+
   }
 
   public static <T extends Number> Box<T> getBox(T element) {

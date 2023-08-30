@@ -1,4 +1,4 @@
-package week6.week6mon.Person;
+package week5.week5fri.demogenrics.Person;
 
 public class Staff implements Swimable {
   @Override
