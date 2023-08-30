@@ -126,5 +126,9 @@ public class hellotesting {
         // int target = 2;
         // countPairs(nums, target);
         System.out.println(countPairs(Arrays.asList(-1, 1, 2, 3, 1), 2));
+
+
+
+        List<Integer> nums = Arrays.asList(2, 3, 1, 4, 2);
     }
 }
