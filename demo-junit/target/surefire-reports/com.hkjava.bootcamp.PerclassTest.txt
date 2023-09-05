@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.hkjava.bootcamp.PerclassTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.hkjava.bootcamp.PerclassTest
+test2  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at com.hkjava.bootcamp.PerclassTest.test2(PerclassTest.java:26)
+
+test1  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	at com.hkjava.bootcamp.PerclassTest.test1(PerclassTest.java:19)
+

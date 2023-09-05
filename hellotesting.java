@@ -65,6 +65,23 @@ public class hellotesting {
 
     }
 
+    public static int findKthPositive(int[] arr, int k) {
+        // arr = [10,11,14], k = 13
+        int count = arr[0]-1;
+        if(count >=k)
+        return k;
+        for(int i = 0; i < arr.length -1 ; i++){
+            if(arr[i]+1 == arr[i+1]){
+                continue; //2個NUMBER痴埋就唔駛做野
+            }
+            if(arr[i+1] - arr[i]-1 + count >= k)
+            return arr[i] + (k - count);
+            count+= arr[i + 1] - arr [i] -1;
+        }   
+        return arr[arr.length - 1] + (k - count);
+       }
+   
+
     public static int countWords(String[] words1, String[] words2) {
         HashMap<String, Integer> map1 = new HashMap<>();
         HashMap<String, Integer> map2 = new HashMap<>();
@@ -92,6 +109,23 @@ public class hellotesting {
         }
         return count;
     }
+
+    public static void sortPeople(String[] names, int[] heights) {
+        Map<Integer, String> map = new HashMap<>();
+        for (int i = 0; i < names.length; i++) {
+            map.put(heights[i], names[i]);
+        }        
+        Arrays.sort(heights);
+        String[] result = new String[heights.length];
+        int index = 0;
+        for (int i = heights.length - 1; i >= 0; i--) {
+            result[index] = map.get(heights[i]);
+            index++;
+        }
+        System.out.println(result);
+    }
+
+
 
     public static void main(String[] args) {
 
@@ -127,8 +161,17 @@ public class hellotesting {
         // countPairs(nums, target);
         System.out.println(countPairs(Arrays.asList(-1, 1, 2, 3, 1), 2));
 
-
-
         List<Integer> nums = Arrays.asList(2, 3, 1, 4, 2);
+
+
+        int[]arr = new int[]{10,11,14};
+        int k = 13;
+        System.out.println(findKthPositive(arr,k));
+
+
+        String[] names = {"Alice","Bob","Bob"};
+        int[] heights = {155,185,150};
+        
+        sortPeople(names,heights);
     }
 }
