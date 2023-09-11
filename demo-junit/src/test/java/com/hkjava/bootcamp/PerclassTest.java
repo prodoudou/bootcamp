@@ -7,20 +7,22 @@ import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.time.Duration;
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @TestMethodOrder(OrderAnnotation.class)
 public class PerclassTest {
   private int x;
 
   @Test
-  @Order(2)
+  @Order(1)
   void test1() {
     x++;
     assertEquals(1, x);
   }
 
   @Test
-  @Order(1)
+  @Order(2)
   void test2() {
     x++;
     assertEquals(2, x);
@@ -46,6 +48,25 @@ public class PerclassTest {
   void testassertNotNull(){
     Student student = new Student();
     assertNotNull(student.getSubjects());
+
   }
- 
+  @Test
+  void testAssertThrows(){
+    assertThrows(ArithmeticException.class, () -> {
+      App.divide(10,0);
+    });
+
+    assertDoesNotThrow(() -> {
+      App.divide(10, 5);
+    });
+  }
+
+  @Test
+  void testAssertNotTimeout(){
+    assertTimeout(Duration.ofMillis(1000), () -> {
+    Thread.sleep(200);// ms
+  });
+
+  }
 }
+ 

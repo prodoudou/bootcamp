@@ -110,7 +110,7 @@ public class hellotesting {
         return count;
     }
 
-    public static void sortPeople(String[] names, int[] heights) {
+    public static String[] sortPeople(String[] names, int[] heights) {
         Map<Integer, String> map = new HashMap<>();
         for (int i = 0; i < names.length; i++) {
             map.put(heights[i], names[i]);
@@ -122,7 +122,7 @@ public class hellotesting {
             result[index] = map.get(heights[i]);
             index++;
         }
-        System.out.println(result);
+        return result;
     }
 
 
@@ -172,6 +172,6 @@ public class hellotesting {
         String[] names = {"Alice","Bob","Bob"};
         int[] heights = {155,185,150};
         
-        sortPeople(names,heights);
+        System.out.println(Arrays.toString(sortPeople(names,heights)));
     }
 }

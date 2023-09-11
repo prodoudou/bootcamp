@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.hkjava.App",
+      "projectName": "demo-mockito"
+    },
+    {
+      "type": "java",
+      "name": "FurnitureOrder",
+      "request": "launch",
+      "mainClass": "javahongkong.bootcamp.exercise.FurnitureOrder",
+      "projectName": "furniture-factory"
+    },
+    {
+      "type": "java",
       "name": "DemoThread",
       "request": "launch",
       "mainClass": "week6.week6fri.thread.DemoThread",

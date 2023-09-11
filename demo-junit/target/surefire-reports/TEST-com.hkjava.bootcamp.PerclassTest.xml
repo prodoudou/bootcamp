@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hkjava.bootcamp.PerclassTest" time="0.002" tests="6" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hkjava.bootcamp.PerclassTest" time="0.211" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="HK"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/patrick/Documents/patrick/bootcamp/demo-junit/target/surefire/surefirebooter3296041328764533381.jar /Users/patrick/Documents/patrick/bootcamp/demo-junit/target/surefire 2023-09-05T13-50-07_580-jvmRun1 surefire13363957671715684433tmp surefire_02164298561490902433tmp"/>
+    <property name="sun.java.command" value="/Users/patrick/Documents/patrick/bootcamp/demo-junit/target/surefire/surefirebooter11772706945690969442.jar /Users/patrick/Documents/patrick/bootcamp/demo-junit/target/surefire 2023-09-06T12-32-20_391-jvmRun1 surefire9263539965681663930tmp surefire_010559741412780085190tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/patrick/Documents/patrick/bootcamp/demo-junit/target/test-classes:/Users/patrick/Documents/patrick/bootcamp/demo-junit/target/classes:/Users/patrick/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/patrick/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/patrick/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/patrick/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/patrick/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/patrick/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/patrick/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/patrick/Documents/patrick/bootcamp/demo-junit/target/surefire/surefirebooter3296041328764533381.jar"/>
+    <property name="surefire.real.class.path" value="/Users/patrick/Documents/patrick/bootcamp/demo-junit/target/surefire/surefirebooter11772706945690969442.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -57,18 +57,12 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="test2" classname="com.hkjava.bootcamp.PerclassTest" time="0">
-    <failure message="expected: &lt;2&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
-	at com.hkjava.bootcamp.PerclassTest.test2(PerclassTest.java:26)
-]]></failure>
-  </testcase>
-  <testcase name="test1" classname="com.hkjava.bootcamp.PerclassTest" time="0">
-    <failure message="expected: &lt;1&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-	at com.hkjava.bootcamp.PerclassTest.test1(PerclassTest.java:19)
-]]></failure>
-  </testcase>
-  <testcase name="testAssertFalse" classname="com.hkjava.bootcamp.PerclassTest" time="0"/>
-  <testcase name="testAssertNull" classname="com.hkjava.bootcamp.PerclassTest" time="0"/>
+  <testcase name="test1" classname="com.hkjava.bootcamp.PerclassTest" time="0"/>
+  <testcase name="test2" classname="com.hkjava.bootcamp.PerclassTest" time="0"/>
+  <testcase name="testAssertNotTimeout" classname="com.hkjava.bootcamp.PerclassTest" time="0.202"/>
+  <testcase name="testAssertFalse" classname="com.hkjava.bootcamp.PerclassTest" time="0.002"/>
+  <testcase name="testAssertThrows" classname="com.hkjava.bootcamp.PerclassTest" time="0.002"/>
+  <testcase name="testAssertNull" classname="com.hkjava.bootcamp.PerclassTest" time="0.002"/>
   <testcase name="testAssertTrue" classname="com.hkjava.bootcamp.PerclassTest" time="0"/>
-  <testcase name="testassertNotNull" classname="com.hkjava.bootcamp.PerclassTest" time="0.001"/>
+  <testcase name="testassertNotNull" classname="com.hkjava.bootcamp.PerclassTest" time="0.002"/>
 </testsuite>

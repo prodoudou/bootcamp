@@ -10,4 +10,12 @@ public class App {
         //  return  1; // new add
         return x + y;
     }
+
+    // public static int anotherMethod(int z){
+    //     return (z + 10) / 100;
+    // }
+
+    public static int divide (int x, int y){
+        return x / y;
+    }
 }
