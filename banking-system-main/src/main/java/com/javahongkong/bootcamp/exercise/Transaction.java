@@ -25,15 +25,16 @@ public class Transaction {
 
 	public double getBalance() {
 		// complete the function
-		return -1.0;
+		return bank.getBalance(accountNumber);
 	}
 
 	public void credit(double amount) {
 		// complete the function
+		bank.getAccount(accountNumber).creditAccount(amount);
 	}
 
 	public boolean debit(double amount) {
 		// complete the function
-		return true;
+		return bank.getAccount(accountNumber).debitAccount(amount);
 	}
 }

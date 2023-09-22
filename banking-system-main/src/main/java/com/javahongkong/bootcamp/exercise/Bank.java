@@ -18,7 +18,9 @@ public class Bank {
 
 	public Long openCommercialAccount(Company company, int pin, double startingDeposit) {
 		// complete the function
-		return -1L;
+	Long accountNumber = (long) accounts.size();
+		CommercialAccount commercialAccount = new CommercialAccount(company, accountNumber, pin, accounts.put(accountNumber, commercialAccount));
+		return accountNumber;
 	}
 
 	public Long openConsumerAccount(Person person, int pin, double startingDeposit) {
